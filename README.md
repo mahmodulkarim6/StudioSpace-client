@@ -49,7 +49,7 @@ Log in as the **Host** and open **My Bookings > Requests for my studios** to con
 git clone https://github.com/YOUR-USERNAME/studiospace-server.git
 cd studiospace-server
 npm install
-cp .env.example .env
+cp .env
 ```
 Fill in `.env`:
 ```
