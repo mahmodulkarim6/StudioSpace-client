@@ -1,7 +1,7 @@
 # StudioSpace - Peer-to-Peer Creative Studio Marketplace
 
-**Live Site:** https://YOUR-VERCEL-URL.vercel.app
-**Server API:** https://YOUR-RENDER-URL.onrender.com
+**Live Site:** https://studiospace-client-iota.vercel.app
+**Server API:** https://studiospace-server-lovat.vercel.app
 **Server Repository:** https://github.com/YOUR-USERNAME/studiospace-server
 
 StudioSpace is a peer-to-peer marketplace where filmmakers, photographers, podcasters and musicians discover, filter and book creative studios by the hour, and studio owners list their spaces and manage booking requests.
@@ -76,7 +76,7 @@ cp .env.example .env
 ```
 Fill in `.env`:
 ```
-SERVER_URL=http://localhost:5000
+SERVER_URL=https://studiospace-server-lovat.vercel.app
 NEXT_PUBLIC_IMGBB_KEY=your imgbb API key
 ```
 Then run:
